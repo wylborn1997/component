@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list{
+  width: 300px;
+}
+.list__item{
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  border-top: 1px solid #ccc ;
+  border-bottom: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
+.list__item--icon{
+  margin-left: 30px;
+}
+.list__item--name{
+  margin-left: 30px;
+}
